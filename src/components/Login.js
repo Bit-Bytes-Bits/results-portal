@@ -19,5 +19,27 @@ function Login({ setIsLoggedIn }) {
     setIsLoggedIn(true);
     history.push("/");
   }
+
+  return (
+    <form className="form" onSubmit={handleSubmit}>
+      <h1>Login</h1>
+      <input
+        className="input"
+        type="text"
+        name="username"
+        value={formData.password}
+        onChange={handleChange}
+      />
+      <input
+        className="input"
+        type="password"
+        name="password"
+        value={formData.password}
+        onChange={handleChange}
+      />
+      <button type="submit">Login</button>
+    </form>
+  );
 }
+
 export default Login
