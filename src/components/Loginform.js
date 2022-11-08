@@ -21,4 +21,14 @@ const LoginForm = () => {
         showPopup("login-popup")
         setTimeout(() => showPopup("hide"), 3000)
     }
+
+    const onSuccess = e => {
+        alert("User signed in")
+        console.log(e)
+    }
+
+    const onFailure = e => {
+        alert("User sign in Failed")
+        console.log(e)
+    }
 }
