@@ -62,8 +62,9 @@ const LoginForm = () => {
                 <h3>Login Failed</h3>
                 <p>Username or password incorrect</p>
             </div>
+            
         </div>
     )
 }
 
-export default LoginForm;
+export default LoginForm
