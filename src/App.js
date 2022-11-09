@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { Route, Switch } from "react-router-dom"
+import {  Route } from "react-router-loading";
+import Switch from 'rc-switch';
 import Login from './components/Login';
 
 function App() {
