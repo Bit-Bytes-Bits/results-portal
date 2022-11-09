@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
+
 function Login({ setIsLoggedIn }) {
   const history = useHistory();
   const [formData, setFormData] = useState({
@@ -39,9 +40,10 @@ function Login({ setIsLoggedIn }) {
         value={formData.password}
         onChange={handleChange}
       />
-      <button type="submit">Login</button>
+      <button className="login-btn" type="submit">Login</button>
     </form>
   );
 }
 
 export default Login;
+
