@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-use-history";
 
 function Login({ setIsLoggedIn }) {
     const history = useHistory();
@@ -17,6 +17,7 @@ function Login({ setIsLoggedIn }) {
         e.preventDefault();
 
         setIsLoggedIn(true);
+        history.push("/")
     }
 
     return (
