@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 .navbar {
   padding-top: 12px;
@@ -22,18 +23,19 @@
   text-decoration: "none";
   color: "white";
 }
-.imageCard {
-  height: auto;
-  display: flex;
-  justify-content: space-around;
+.imageCard { 
+  height: auto; 
+  display: flex; 
+  justify-content: space-around; 
+} 
+.imageCard input[type=image]{ 
+  vertical-align: middle; 
+  
 }
-.imageCard input[type=image]{
-  vertical-align: middle;
-}
-.imageCard img {
-  height: 300px;
-  width: 300px;
-}
+.imageCard img { 
+  height: 300px; 
+  width: 300px; 
+} 
 .imgContainer {
   padding-top: 12px;
   box-sizing: border-box;
