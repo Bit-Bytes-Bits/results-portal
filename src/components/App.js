@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Login from "./Login";
 import Results from "./Results";
 import Home from "./Home";
+import Footer from "./Footer";
 
 function App() {
   
@@ -35,6 +36,9 @@ function App() {
           <Home isLoggedIn={isLoggedIn} />
         </Route>
       </Switch>
+      <div className="footer">
+      <Footer />
+      </div>
     </div>
   );
 }

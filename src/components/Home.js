@@ -1,13 +1,13 @@
-import React from "react";
-import { Redirect } from "react-router-dom";
-
-function Home({ isLoggedIn }) {
+import React from "react"; 
+import { Redirect } from "react-router-dom"; 
  
-  if (!isLoggedIn) return <Redirect to="/login" />;
+function Home({ isLoggedIn }) { 
+ 
+  if (!isLoggedIn) return <Redirect to="/login" />; 
 
-  return <div className="imageCard">
+  return <div className="imageCard"> 
     
-  </div>;
-}
+  </div>; 
+} 
 
 export default Home;
