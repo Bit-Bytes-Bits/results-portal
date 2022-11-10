@@ -12,7 +12,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const[results, setResults]=useState([])
   useEffect(()=>{
-    fetch('http://localhost:3000/results')
+    fetch('http://localhost:9292/students')
     .then(res=>res.json())
     .then(data=>{
       console.log(data)

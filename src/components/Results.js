@@ -1,26 +1,10 @@
 import React from "react";
+import Table from "./Table";
 
 function Results({ results }) {
-  console.log(results);
-  const studentResult = results.map((student) => (
-    <div>
-      <tr>
-        <th>Name</th>
-        <th>Grade</th>
-        <th>Remarks</th>
-      </tr>
-      <tr>
-        <td>{student.name}</td>
-        <td>{student.Grade}</td>
-        <td>{student.message}</td>
-      
-      </tr>
-    </div>
-  ));
 
-  return <div className="resultsCard">
-    {studentResult}
-  </div>;
+  console.log(results);
+  return <Table results={results}/>;
 }
 
 export default Results;
