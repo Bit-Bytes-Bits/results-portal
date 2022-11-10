@@ -33,11 +33,11 @@ function App() {
           <Login setIsLoggedIn={setIsLoggedIn} />
         </Route>
         <Route exact path="/">
-          <Home isLoggedIn={isLoggedIn} />
-        </Route>
-      </Switch>
+          <Home /*isLoggedIn={isLoggedIn} */ />
+        </Route> 
+      </Switch> 
       <div className="footer">
-      <Footer />
+        <Footer />
       </div>
     </div>
   );
