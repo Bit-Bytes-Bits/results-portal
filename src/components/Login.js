@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+import "../styles/Login.css"
 
 
 function Login({ setIsLoggedIn }) {
@@ -24,6 +25,7 @@ function Login({ setIsLoggedIn }) {
   }
 
   return (
+    <div className="form-form">
     <form className="form" onSubmit={handleSubmit}>
       <h1>Login</h1>
       <input
@@ -42,6 +44,7 @@ function Login({ setIsLoggedIn }) {
       />
       <button className="login-btn" type="submit">Login</button>
     </form>
+    </div>
   );
 }
 
