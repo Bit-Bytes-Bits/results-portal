@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import GoogleLogin from "react-google-login";
 import { gapi } from "gapi-script";
-import "../styles/Login.css";
+import "../styles/Loginform.css"
 
 const LoginForm = () => {
 
@@ -33,10 +33,9 @@ const LoginForm = () => {
     }
 
     return (
-
         <div className="cover">
             <h1>Login</h1>
-            <input type="username" placeholder="Username" required/>
+            <input type="text" placeholder="username" />
             <input type="password" placeholder="password" />
 
             <div className="login-btn" onClick={popup}>Login</div>
