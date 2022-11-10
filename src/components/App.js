@@ -5,8 +5,8 @@ import NavBar from "./NavBar";
 import Login from "./Login";
 import Results from "./Results";
 import Home from "./Home";
-import Footer from "./Footer";
-
+// import Footer from "./Footer";
+ 
 function App() {
   
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -33,12 +33,10 @@ function App() {
           <Login setIsLoggedIn={setIsLoggedIn} />
         </Route>
         <Route exact path="/">
-          <Home /*isLoggedIn={isLoggedIn} */ />
+          <Home isLoggedIn={isLoggedIn}  />
         </Route> 
       </Switch> 
-      <div className="footer">
-        <Footer />
-      </div>
+    
     </div>
   );
 }
