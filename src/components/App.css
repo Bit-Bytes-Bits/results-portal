@@ -2,6 +2,17 @@
   text-align: center;
   
 }
+
+body { 
+  background-color: #171321;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .navbar {
   padding-top: 12px;
   align-content: center;
@@ -29,9 +40,21 @@
   justify-content: space-around; 
 } 
 .imageCard input[type=image]{ 
-  vertical-align: middle; 
+  vertical-align: middle;   
+}
+
+.footer{
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
   
 }
+
+
 .imageCard img { 
   height: 300px; 
   width: 300px; 
