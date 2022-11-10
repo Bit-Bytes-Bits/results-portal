@@ -1,13 +1,16 @@
 import React from "react"; 
 import Image from "../logo/logo.png";
-// import { Redirect } from "react-router-dom"; 
+import Footer from "./Footer";
+import "../styles/Home.css"
+ import { Redirect } from "react-router-dom"; 
 
  
 function Home({ isLoggedIn }) { 
  
-  // if (!isLoggedIn) return <Redirect to="/login" />; 
+  if (!isLoggedIn) return <Redirect to="/login" />; 
 
   return (
+    <>
     <div className="home-content"> 
       <div className="logo">
         <img src={Image} alt="Logo"/>
@@ -20,7 +23,12 @@ function Home({ isLoggedIn }) {
         <h1>WELCOME TO OUR UNIVERSITY</h1>
         <p>We believe there is nothing more important than education.</p>
       </div>
+      
     </div>
+    <div className="footer">
+        <Footer />
+      </div>
+    </>
   )
 } 
  
