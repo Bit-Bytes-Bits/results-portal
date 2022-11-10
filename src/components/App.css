@@ -1,3 +1,7 @@
+body {
+  background-image: url('../icons/background.jpg');
+  filter: blur(0.8px);
+}
 .App {
   text-align: center;
 }
@@ -6,7 +10,7 @@
   align-content: center;
   display: flex;
   justify-content: space-around;
-  background-color: whitesmoke;
+  background-color: #171321;
   width: 100%;
   height: 50px;
   align-items: center;
@@ -48,9 +52,12 @@
   -webkit-transform: scale(1.3.1);
   box-shadow: 2px 2px 2px #4b4b4b;
 }
+.h1 {
+  color: #27AE60;
+}
 .form {
   height: 500px;
-  background-color: burlywood;
+  background-color: #171321;
   width: 500px;
   margin: auto;
   align-items: center;
@@ -62,6 +69,7 @@
 }
 .input {
   padding: 12px;
+  background-color: #27AE60;
   margin: 22px;
 }
 .notes {
@@ -85,7 +93,7 @@
 .resultsCard{
   height: 500px;
   word-spacing: 10px;
-  background-color: yellowgreen;
+  background-color: #171321;
   width: 500px;
   margin: auto;
   align-items: center;
