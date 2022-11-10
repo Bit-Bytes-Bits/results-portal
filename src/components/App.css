@@ -36,48 +36,6 @@ body {
   color: "white";
 }
 
-.home-content {
-  position: relative;
-  text-align: center;
-  display: flex;
-}
-
-.content {
-  top: 30%;
-  left: 30%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  color: #27AE60;
-}
-
-.content h3{
-  text-decoration: underline;
-}
-.image-card { 
-  width: 100%;
-  
-  /* height: auto;  */
-  /* display: flex;  */
-  /* justify-content: space-around;  */
-} 
-/* .imageCard input[type=image]{ 
-  vertical-align: middle;   
-} */
-
-.image-card img { 
-   width: inherit; 
-  object-fit: cover;
-} 
-
-.logo {
-  position: absolute;
-}
-
-.logo img {
-  height: 50%;
-  width: 50%;
-}
 
 /* .footer {
   position: relative;
