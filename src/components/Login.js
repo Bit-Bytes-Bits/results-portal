@@ -25,11 +25,12 @@ function Login({ setIsLoggedIn }) {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1>Login</h1>
+      <h1 className="h1">Login</h1>
       <input
         className="input"
         type="text"
         name="username"
+        label="Username"
         value={formData.username}
         onChange={handleChange}
       />
