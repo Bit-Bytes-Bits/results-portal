@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import GoogleLogin from "react-google-login";
 import { gapi } from "gapi-script";
-import "../styles/Loginform.css"
+import "../styles/Loginform.css";
 
 const LoginForm = () => {
 
