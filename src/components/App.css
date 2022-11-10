@@ -1,6 +1,19 @@
 .App {
   text-align: center;
+  
 }
+
+body { 
+  background-color: #171321;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff
+}
+
 .navbar {
   padding-top: 12px;
   align-content: center;
@@ -22,19 +35,74 @@
   text-decoration: "none";
   color: "white";
 }
-.imageCard {
-  height: auto;
+
+.home-content {
+  position: relative;
+  text-align: center;
   display: flex;
-  justify-content: space-around;
 }
-.imageCard input[type=image]{
-  vertical-align: middle;
+
+.content {
+  top: 30%;
+  left: 30%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #27AE60;
 }
-.imageCard img {
-  height: 300px;
-  width: 300px;
+
+.content h3{
+  text-decoration: underline;
 }
-.imgContainer {
+.image-card { 
+  width: 100%;
+  
+  /* height: auto;  */
+  /* display: flex;  */
+  /* justify-content: space-around;  */
+} 
+/* .imageCard input[type=image]{ 
+  vertical-align: middle;   
+} */
+
+.image-card img { 
+   width: inherit; 
+  object-fit: cover;
+} 
+
+.logo {
+  position: absolute;
+}
+
+.logo img {
+  height: 50%;
+  width: 50%;
+}
+
+/* .footer {
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+.footer-content {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+} */
+
+.contact-img {
+  height: 30px;
+  width: 30px;
+
+}
+
+.email {
+  height: 30px;
+  width: 30px;
+}
+
+/* .imgContainer {
   padding-top: 12px;
   box-sizing: border-box;
   border: 1px solid whitesmoke;
@@ -47,10 +115,7 @@
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.3.1);
   box-shadow: 2px 2px 2px #4b4b4b;
-}
-.h1 {
-  color: #27AE60;
-}
+
 .form {
   height: 500px;
   background-color: #171321;
