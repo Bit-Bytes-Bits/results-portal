@@ -45,17 +45,18 @@ function NavBar({ setIsLoggedIn,setSearch }) {
       > 
         Results 
       </NavLink> 
+      <NavLink style={linkStyles}  to="/remarks">Remarks</NavLink>
+
       <NavLink 
         to="/login" 
         exact 
-        style={linkStyles} 
+        
         // activeStyle={{ 
         //   background: "ligtblue", 
         // }} 
       > 
         Login 
       </NavLink> 
-       
       <button onClick={handleLogout}>Logout</button> 
     </div> 
   ); 
