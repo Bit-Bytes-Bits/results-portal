@@ -8,6 +8,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Remarks from "./Remarks";
 
+
 function App() {
   const [fetchRemark, setFetchRemark] = useState(false);
   const [remarks, setRemarks] = useState([]);
@@ -73,6 +74,7 @@ function App() {
       <div className="footer">
         <Footer />
       </div>
+
     </div>
   );
 }

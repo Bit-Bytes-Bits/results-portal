@@ -36,48 +36,6 @@ body {
   color: "white";
 }
 
-.home-content {
-  position: relative;
-  text-align: center;
-  display: flex;
-}
-
-.content {
-  top: 30%;
-  left: 30%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  color: #27AE60;
-}
-
-.content h3{
-  text-decoration: underline;
-}
-.image-card { 
-  width: 100%;
-  
-  /* height: auto;  */
-  /* display: flex;  */
-  /* justify-content: space-around;  */
-} 
-/* .imageCard input[type=image]{ 
-  vertical-align: middle;   
-} */
-
-.image-card img { 
-   width: inherit; 
-  object-fit: cover;
-} 
-
-.logo {
-  position: absolute;
-}
-
-.logo img {
-  height: 50%;
-  width: 50%;
-}
 
 /* .footer {
   position: relative;
@@ -115,7 +73,7 @@ body {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.3.1);
   box-shadow: 2px 2px 2px #4b4b4b;
-} */ */
+} */ 
 
 /* .footer{
   width: 100%;
@@ -127,22 +85,6 @@ body {
   justify-content: center; 
 }  */
 
-.form {
-  height: 500px;
-  background-color: burlywood;
-  width: 500px;
-  margin: auto;
-  align-items: center;
-  display: flex;
-  margin-top: 40px;
-  flex-direction: column;
-  padding-top: 20px;
-  border-radius: 12px;
-}
-.input {
-  padding: 12px;
-  margin: 22px;
-}
 .notes {
   display: flex;
   flex-direction: column;
