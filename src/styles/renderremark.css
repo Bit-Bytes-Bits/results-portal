@@ -1,0 +1,39 @@
+.render-box-main {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 60% 60%;
+}
+.render-box {
+  border-radius: 10px;
+  box-shadow: 3px 2px 4px #27ae60;
+  color: #ffffff;
+  padding: 5%;
+}
+
+.remarks-form {
+  margin-top: 1%;
+  background-color: none;
+  box-shadow: 3px 2px 4px #27ae60;
+  text-align: center;
+}
+
+.remarks-form input {
+  border-right: #ffffff solid 1px;
+  display: inline;
+  margin: 1%;
+  background: none;
+  grid-template-rows: auto;
+  cursor: pointer;
+}
+
+.remarks-form button {
+    color: #ffffff;
+    margin-left: 3%;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+}
+.remarks-form button:hover{
+    transition: ease-in-out .4s;
+    background-color: #27ae60;
+}
