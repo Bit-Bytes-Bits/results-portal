@@ -13,5 +13,4 @@ function RenderRemark({id, handleClick,remark}) {
     </div>
   )
 }
-
 export default RenderRemark
