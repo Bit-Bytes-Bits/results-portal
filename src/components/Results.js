@@ -4,7 +4,11 @@ import Table from "./Table";
 function Results({ results }) {
 
   console.log(results);
-  return <Table results={results}/>;
+  return(
+  <div>
+   <Table results={results}/>
+  </div>
+ )
 }
 
 export default Results;

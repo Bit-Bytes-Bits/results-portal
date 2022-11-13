@@ -1,5 +1,3 @@
-
-
 const Table = ({results}) => {
   const tableHeader = ["First Name", "Last Name", "Marks", "Grade"];
   return (
@@ -44,6 +42,7 @@ const Table = ({results}) => {
                       <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                         {r.grade}
                       </td>
+                      
                     </tr>
                   ))}
                 </tbody>
