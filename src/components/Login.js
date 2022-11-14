@@ -24,10 +24,11 @@ function Login({ setIsLoggedIn }) {
   }
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <h1>Login</h1>
+    <form className="login-form" onSubmit={handleSubmit}>
+      <h1>Confirm Your Identity</h1>
       <input
         className="input"
+        placeholder="Enter your username"
         type="text"
         name="username"
         value={formData.username}
@@ -35,6 +36,7 @@ function Login({ setIsLoggedIn }) {
       />
       <input
         className="input"
+        placeholder="Enter your password"
         type="password"
         name="password"
         value={formData.password}
