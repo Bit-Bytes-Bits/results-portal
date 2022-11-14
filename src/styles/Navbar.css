@@ -1,5 +1,16 @@
-.navbar{
-    background-color: #191D2B;
-    
-    padding: 18px;
+
+.navbar {
+  background-color: #191d2b;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 3%;
+}
+
+.active{
+    color: #27ae60;
 }

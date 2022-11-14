@@ -40,7 +40,7 @@ function Login({ setIsLoggedIn }) {
         value={formData.password}
         onChange={handleChange}
       />
-      <button className="login-btn" type="submit">Login</button>
+      <button className="login-btn" type="submit">Submit</button>
     </form>
   );
 }
