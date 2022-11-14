@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap');
 
 .footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comic Neue', cursive;
   color: black;
   display: flex;
   background-color: #27ae60;
@@ -33,6 +33,12 @@
   border-radius: 30px;
   padding: 10px;
   font-size: 50px;
+}
+
+.footer-contact svg:hover, .socials svg:hover{
+    cursor: pointer;
+    transition: ease-in-out .4s;
+    color: white
 }
 
  .section3, .section4{

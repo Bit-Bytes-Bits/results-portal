@@ -1,64 +1,41 @@
- import React from "react";
-import { NavLink, useHistory } from "react-router-dom"; 
+import React from "react";
+import { NavLink, useHistory } from "react-router-dom";
 import "../styles/Navbar.css";
- 
-function NavBar({ setIsLoggedIn,setSearch }) {  
-  const history = useHistory(); 
-  function handleLogout() { 
-    setIsLoggedIn(false); 
-    history.push("/login"); 
-  } 
- 
-  const linkStyles = { 
-    width: "150px", 
-    height: "40px", 
-    paddingTop: "14px", 
-    borderRadius: "8px", 
-    padding: "2px", 
-    alignItems: "center", 
-    margin: "0 6px 6px", 
-    background: "#27AE60", 
-    textDecoration: "none", 
-    color: "white", 
-    fontSize: "22px", 
-  }; 
- 
-  return ( 
-    <div className="navbar"> 
-      <NavLink 
-        to="/" 
-        exact 
-        style={linkStyles} 
-        // activeStyle={{ 
-        //   background: "ligtblue", 
-        // }} 
-      > 
-        Home 
-      </NavLink> 
-      <NavLink 
-        to="/results" 
-        exact 
-        style={linkStyles} 
-        // activeStyle={{ 
-        //   background: "ligtblue", 
-        // }} 
-      > 
-        Results 
-      </NavLink> 
-      <NavLink style={linkStyles}  to="/remarks">Remarks</NavLink>
 
-      <NavLink 
-        to="/login" 
-        exact 
-        
-        // activeStyle={{ 
-        //   background: "ligtblue", 
-        // }} 
-      > 
-        Login 
-      </NavLink> 
-      <button onClick={handleLogout}>Logout</button> 
-    </div> 
-  ); 
-} 
+function NavBar({ setIsLoggedIn, setSearch }) {
+  const history = useHistory();
+  function handleLogout() {
+    setIsLoggedIn(false);
+    history.push("/login");
+  }
+
+  return (
+    <div className="navbar">
+      <NavLink activeClassName="active"
+        to="/"
+        exact
+      >
+        Home
+      </NavLink>
+      <NavLink activeClassName="active"
+        to="/results"
+        exact
+      >
+        Results
+      </NavLink>
+      <NavLink activeClassName="active"
+        to="/remarks">
+        Remarks
+      </NavLink>
+
+      <NavLink activeClassName="active"
+        to="/login"
+        exact
+      >
+        Login
+      </NavLink>
+      <button onClick={ handleLogout }>Logout</button>
+    </div>
+  );
+}
 export default NavBar; 
