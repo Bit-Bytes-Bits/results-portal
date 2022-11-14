@@ -18,7 +18,7 @@
 }
 
 .footer-contact {
-  width: 80%;
+  /* width: 80%; */
   display: grid;
 }
 
@@ -42,7 +42,7 @@
 }
 
  .section3, .section4{
-  width: 30%;
+  width: 25%;
   text-align: left;
 }
 

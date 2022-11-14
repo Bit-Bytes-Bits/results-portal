@@ -1,13 +1,19 @@
 .render-box-main {
   margin-top: 5%;
   display: grid;
-  grid-template-columns: 60% 60%;
+  grid-template-columns: 50% 50%;
 }
 .render-box {
   border-radius: 10px;
   box-shadow: 3px 2px 4px #27ae60;
   color: #ffffff;
   padding: 5%;
+  text-align: left;
+}
+
+.render-box h4{
+  font-weight: 800;
+  margin: 1%;
 }
 
 .remarks-form {
@@ -28,7 +34,7 @@
 
 .remarks-form button {
     color: #ffffff;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     background-color: orange;
     padding: 8px;
     border-radius: 10px;
@@ -36,4 +42,18 @@
 .remarks-form button:hover{
     transition: ease-in-out .4s;
     background-color: #27ae60;
+}
+
+.deleteBtn{
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: red;
+}
+
+.deleteBtn:hover{
+  cursor: pointer;
+  background-color: #4cc9f0;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
 }
