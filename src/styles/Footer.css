@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap');
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  display: flex;
+  background-color: #27ae60;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+          left: 0;
+          bottom: 0;
+          right: 0;
+}
+
+.footer h2 {
+  font-weight: 600;
+}
+
+.footer-contact {
+  width: 80%;
+  display: grid;
+}
+
+.footer-contact svg {
+  width: 20%;
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.socials svg {
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+ .section3, .section4{
+  width: 30%;
+  text-align: left;
+}
+
