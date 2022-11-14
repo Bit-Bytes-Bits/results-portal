@@ -27,7 +27,7 @@
 \
 Results Portal is an application written in both React Js and Ruby progrmamming languages.\
 The application acts a link between parents, teachers and students in terms of\
-their performance in school by allowing users of the system to access grades and give remarks. \
+their performance in school by allowing users of the system to access grades and give remarks.
 
 You can also view this project by clicking on the live link provided [here](#live-link-to-project).
 
@@ -46,9 +46,9 @@ A computer with the following:
 There are two repositories available for this project. One holds the front-end part and the other holds the backend part.
 1. Clone both repositories to your computer in one folder:
 
-Front-End in React: [Click Here](git@github.com:Bit-Bytes-Bits/results-portal.git)  
+Front-End in React: [Click Here](https://github.com/Bit-Bytes-Bits/results-portal)  
 
-Backend in ruby: [Click Here](git@github.com:Bit-Bytes-Bits/results-portal-backend.git)
+Backend in ruby: [Click Here](https://github.com/Bit-Bytes-Bits/results-portal-backend)
 
 2. Open the root of the folder on your visual studio code.
 
