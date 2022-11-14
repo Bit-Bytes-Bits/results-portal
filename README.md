@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# About The Project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+            End of Phase 3 group Project Assignment
 
-## Available Scripts
+## Project Name
 
-In the project directory, you can run:
+            JAGIT UNIVERSITY PORTAL
 
-### `npm start`
+## Authors:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Grace Njuguna       |   grace.njuguna@student.moringaschool.com
+    Joy Chemutai        |   joy.chemutai@student.moringaschool.com
+    Amran Abdikadir     |   amran.abdikadir@student.moringaschool.com
+    Timothy Kibet       |   timothy.kibet@student.moringaschool.com
+    Ian Mike Kaibi      |   ian.kaibi@student.moringaschool.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Description](#description)
+- [Requirements](#requirements)
+- [Program Setup](#program-setup)
+- [Live Link](#live-link-to-project)
+- [Project Images](#project-images)
+- [License](#license-information)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
+\
+Results Portal is an application written in both React Js and Ruby progrmamming languages.\
+The application acts a link between parents, teachers and students in terms of\
+their performance in school by allowing users of the system to access grades and give remarks. \
 
-### `npm run build`
+You can also view this project by clicking on the live link provided [here](#live-link-to-project).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requirements
+A computer with the following:
+- Ruby version 2.7 or above
+- Node JS version 16 or greater
+- Visual studio code editor with the following installed:
+ 1. SQLite extension support
+ 2. Code Runner extension support
+ 3. React Snippets extension support
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* A working internet connection.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Program Setup
+There are two repositories available for this project. One holds the front-end part and the other holds the backend part.
+1. Clone both repositories to your computer in one folder:
 
-### `npm run eject`
+Front-End in React: [Click Here](git@github.com:Bit-Bytes-Bits/results-portal.git)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Backend in ruby: [Click Here](git@github.com:Bit-Bytes-Bits/results-portal-backend.git)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Open the root of the folder on your visual studio code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Navigate to the backend directory, and execute ```bundle install```
+and this command will install all the necessary gems required for the program to execute
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Run ```rake server ``` and this will deploy the backend to the local host
 
-## Learn More
+5. Navigate to the front end folder, run ```npm install``` followed by ```npm start``` and the project will launch on your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Live Link To Project:  
 
-### Code Splitting
+[Click here](https://genuine-custard-3801cb.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Project Images
+Results Page
+![view](./src/project-images/results-fetch.png)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Remarks Page
+![view](./src/project-images/remarks-post.png)  
 
-### Making a Progressive Web App
+Login Page
+![view](./src/project-images/log.png) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Delete Action
+![view](./src/project-images/delete-post.png)
+## License Information
 
-### Advanced Configuration
+The MIT License (MIT)
+Copyright © 2022 [Timothy Kibet](https://github.com/timbett), [Grace Njuguna](https://github.com/gracelaura), [Joy Chemutai](https://github.com/joymush), [Amran Abdikadir](https://github.com/amran04) and [Ian Mike Kaibi](https://github.com/Bit-Bytes-Bits)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Deployment
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
