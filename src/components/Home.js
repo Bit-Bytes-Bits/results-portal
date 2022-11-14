@@ -1,6 +1,6 @@
 import React from "react"; 
 import Image from "../logo/logo.png";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 // import { Redirect } from "react-router-dom"; 
 
  
